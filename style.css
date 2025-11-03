@@ -1,0 +1,64 @@
+ body {
+     font-family: Arial, sans-serif;
+     padding: 20px;
+     line-height: 1.5;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ /* ===== Завдання 1 ===== */
+ #categories {
+     list-style: none;
+     padding: 0;
+ }
+
+ #categories .item {
+     margin-bottom: 20px;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     padding: 10px;
+ }
+
+ /* ===== Завдання 3 (галерея) ===== */
+ #gallery {
+     display: flex;
+     gap: 20px;
+     list-style: none;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 0;
+ }
+
+ #gallery img {
+     width: 300px;
+     border-radius: 10px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+ }
+
+ /* ===== Завдання 4 (лічильник) ===== */
+ #counter {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+     margin-top: 30px;
+ }
+
+ #counter button {
+     font-size: 20px;
+     padding: 8px 14px;
+     cursor: pointer;
+     border-radius: 6px;
+     border: 1px solid #ccc;
+     background-color: #f0f0f0;
+ }
+
+ #counter #value {
+     font-size: 24px;
+     font-weight: bold;
+     min-width: 40px;
+     text-align: center;
+     display: inline-block;
+ }
