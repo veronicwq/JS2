@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Колекція елементів</title>
+  <style>
+    #boxes {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    #boxes div {
+      margin: 5px;
+    }
+  </style
+</head>
+<body>
+
+  <div id="controls">
+    <input type="number" min="0" max="100" step="1" />
+    <button type="button" data-action="render">Створити</button>
+    <button type="button" data-action="destroy">Очистити</button>
+  </div>
+
+  <div id="boxes"></div>
+
+  <script src="script3.js"></script>
+</body>
+</html>
